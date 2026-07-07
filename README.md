@@ -1,6 +1,6 @@
 # 🎲 Math Party
 
-Link para o jogo: https://math-party.github.io/Math-Party/index.html
+Link para o jogo: https://math-party.github.io/Math-Party-game/index.html
 
 O **Math Party** é um jogo de tabuleiro digital pedagógico desenvolvido para estudantes do **Ensino Fundamental 2 (6º ao 9º ano)**. Inspirado em dinâmicas de *party games* clássicos (como *Mario Party* e *Pummel Party*), o projeto tem como objetivo tornar a fixação de conteúdos matemáticos uma experiência ativa, dinâmica e altamente interativa.
 
