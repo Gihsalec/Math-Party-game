@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Party - Resultado Individual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style/resultadoIndividual.css">
+</head>
+<body>
+    <div class="container">
+        <a href="resultadoGeral.html">
+            <img src="../images/voltar.png" alt="Voltar" class="btn-voltar">
+        </a>
+        <div class="ajuste">
+        <h1>Resultado Individual</h1>
+        <div class="painel">
+            <div class="perfil">
+                <h2 id="nomeJogador">Jogador</h2>
+                <img id="avatarJogador" src="" alt="">
+            </div>
+            <div class="coluna acertadas">
+                <h3>Acertadas</h3>
+                <div id="listaAcertadas" class="lista-perguntas"></div>
+            </div>
+            <div class="coluna erradas">
+                <h3>Erradas</h3>
+                <div id="listaErradas" class="lista-perguntas"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="explicacao-overlay" id="explicacaoOverlay" hidden>
+        <div class="explicacao-topo">
+            <button type="button" id="btnFecharExplicacao"><img src="../images/voltar.png" alt="" class="btn-voltar"></button>
+        </div>
+
+        <div class="explicacao-conteudo">
+            <h2 class="explicacao-titulo">Explicação</h2>
+
+            <div class="explicacao-card">
+                <p class="explicacao-secao-titulo">Pergunta:</p>
+                <p class="explicacao-pergunta" id="explicacaoPergunta"></p>
+
+                <div class="explicacao-opcoes" id="explicacaoOpcoes"></div>
+
+                <p class="explicacao-secao-titulo">Solução:</p>
+                <p class="explicacao-solucao" id="explicacaoTexto"></p>
+
+                <p class="explicacao-meta" id="explicacaoReferencia"></p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="../script/resultadoIndividual.js"></script>
+</body>
+</html>

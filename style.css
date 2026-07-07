@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux";
+}
+
+:root {
+    --background-color: #85d4cc;
+    --gray-color: #e0e0e0;
+    --font-color: #212121;
+    --white-color: #ffffff;
+    --black-color: #000000;
+ 
+    --purple-color: #7B39C2;
+    --purple2-color: #A055E2;
+    --ligth-purple-color: #AF7FE2;
+    --ligth-purple2-color: #D0A3F7;
+ 
+    --red-color: #840707;
+    --red2-color: #A81113;
+    --ligth-red-color: #C92639;
+    --ligth-red2-color: #FF6366;
+ 
+    --blue-color: #0A5184;
+    --blue2-color: #127FBE;
+    --ligth-blue-color: #4F9BC1;
+    --ligth-blue2-color: #7BD0FF;
+ 
+    --orange-color: #CE8852;
+    --orange2-color: #EB9E55;
+    --ligth-orange-color: #FFBF83;
+    --ligth-orange2-color: #FFD1A9;
+ 
+    --green-color: #2F8F5B;
+    --green2-color: #3FAE72;
+    --ligth-green-color: #6FCB9A;
+    --ligth-green2-color: #A6E4C2;
+ 
+    --yellow-color: #C99A1F;
+    --yellow2-color: #E0B62E;
+    --ligth-yellow-color: #F0CE5E;
+    --ligth-yellow2-color: #F7E29B;
+ 
+    --tema-red-color: #B5402E;
+    --tema-red2-color: #D1543F;
+    --ligth-tema-red-color: #E48266;
+    --ligth-tema-red2-color: #F0AF9B;
+}
+body{
+    font-family: 'Afacad Flux', sans-serif;
+    background-color: var(--background-color);
+    background-image: radial-gradient(circle, var(--gray-color) 0.060rem, rgba(0, 0, 0, 0) 0.060rem);
+    background-size: 0.7rem 0.7rem;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo{
+    width: 624px;
+    height: 390px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px; 
+}
+
+button{
+    width: 400px;
+    height: 90px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+    box-shadow: 5px 5px 0px rgb(0,0,0, 0.5);
+    font-size: 64px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 0px 0 rgba(0, 0, 0, 0.50);
+}
+
+button:active {
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}
+
+.img-pecas{
+    width: 220px;
+    height: 550px;
+    aspect-ratio: 1/1;
+}
+
+.personagens{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    height: 381px;
+    background: var(--black-color);
+    display: flex;
+    color: var(--gray-color);
+    font-size: 1.25rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img{
+    width: 260px;
+    height: 162px;
+    aspect-ratio: 130/81;
+}
+
+  
+
+    
+    
+
+    
+
+

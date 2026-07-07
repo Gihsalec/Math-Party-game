@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux";
+}
+
+:root {
+    --background-color: #85d4cc;
+    --gray-color: #e0e0e0;
+    --font-color: #212121;
+    --white-color: #ffffff;
+    --black-color: #000000;
+
+    --purple-color: #7B39C2;
+    --purple2-color: #A055E2;
+    --ligth-purple-color: #AF7FE2;
+    --ligth-purple2-color: #D0A3F7;
+
+    --red-color: #840707;
+    --red2-color: #A81113;
+    --ligth-red-color: #C92639;
+    --ligth-red2-color: #FF6366;
+
+    --blue-color: #0A5184;
+    --blue2-color: #127FBE;
+    --ligth-blue-color: #4F9BC1;
+    --ligth-blue2-color: #7BD0FF;
+
+    --orange-color: #CE8852;
+    --orange2-color: #EB9E55;
+    --ligth-orange-color: #FFBF83;
+    --ligth-orange2-color: #FFD1A9;
+
+    --green-color: #2F8F5B;
+    --green2-color: #3FAE72;
+    --ligth-green-color: #6FCB9A;
+    --ligth-green2-color: #A6E4C2;
+
+    --yellow-color: #C99A1F;
+    --yellow2-color: #E0B62E;
+    --ligth-yellow-color: #F0CE5E;
+    --ligth-yellow2-color: #F7E29B;
+
+    --tema-red-color: #B5402E;
+    --tema-red2-color: #D1543F;
+    --ligth-tema-red-color: #E48266;
+    --ligth-tema-red2-color: #F0AF9B;
+}
+
+body {
+    font-family: 'Afacad Flux', sans-serif;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    background-image: radial-gradient(circle, var(--gray-color) 0.060rem, rgba(0, 0, 0, 0) 0.060rem);
+    background-size: 1rem 1rem;
+
+}
+
+.btn-voltar {
+    position: fixed;
+    top: clamp(1rem, 2vw, 70px);
+    left: clamp(1rem, 2vw, 99px);
+    width: clamp(20px, 3vw, 40px);
+    height: auto;
+    z-index: 10;
+    filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, 0.5));
+    transition: transform 0.1s, filter 0.1s;
+}
+
+
+.btn-voltar:active {
+    transform: translate(5px, 5px);
+    filter: none;
+}
+
+h1 {
+    font-family: "Sour Gummy";
+    color: var(--white-color);
+    text-align: center;
+    text-shadow: 10px 10px 0 var(--black-color);
+    -webkit-text-stroke: clamp(3px, 0.6vw, 10px) var(--black-color);
+    paint-order: stroke fill;
+    font-size: clamp(36px, 6vw, 100px);
+    font-weight: 700;
+    padding-top: clamp(1rem, 4vw, 5rem);
+    padding-bottom: clamp(1rem, 3vw, 3rem);
+}
+
+/* ==========================================================
+   resultado.css
+   Estilos específicos da tela de Resultado Individual.
+   Assume-se que este arquivo é carregado JUNTO com o CSS
+   global (variáveis :root, reset *, body, h1, .btn-voltar
+   já estão definidos lá — não repetir aqui).
+   ========================================================== */
+
+.container h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    gap: clamp(1rem, 3vw, 1.5rem);
+}
+
+.ajuste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------- Painel principal (card grande) ---------- */
+.painel {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: clamp(1.5rem, 3vw, 3rem);
+    width: 100%;
+    max-width: 1100px;
+    background: var(--white-color);
+    border: 3px solid var(--black-color);
+    border-radius: clamp(16px, 2vw, 30px);
+    box-shadow: 6px 6px 2px 0 rgba(0, 0, 0, 0.50);
+    padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+/* ---------- Coluna do perfil (avatar grande) ---------- */
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex: 0 0 auto;
+    width: clamp(180px, 22vw, 260px);
+}
+
+.perfil h2 {
+    font-family: 'Sour Gummy', cursive;
+    font-weight: 700;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    text-align: center;
+}
+
+.perfil img {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    object-fit: contain;
+    padding-left: 50px;
+    filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.25));
+}
+
+/* ---------- Colunas de perguntas ---------- */
+.coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.coluna h3 {
+    font-family: 'Sour Gummy', cursive;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    margin-bottom: 0.4rem;
+}
+
+.lista-perguntas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.pergunta-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    font-family: 'Afacad Flux', sans-serif;
+    font-weight: 600;
+    font-size: clamp(0.9rem, 1.8vw, 1.05rem);
+    color: var(--font-color);
+    background: var(--white-color);
+    border: 2px solid var(--black-color);
+    border-radius: 999px;
+    padding: 0.55rem 1.1rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.35);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.pergunta-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 5px 0 rgba(0, 0, 0, 0.35);
+}
+
+.pergunta-item:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+.icone {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    color: var(--white-color);
+    flex-shrink: 0;
+}
+
+.icone.certo {
+    background: var(--green-color);
+}
+
+.icone.errado {
+    background: var(--red-color);
+}
+
+/* ---------- Modal de explicação ---------- */
+.explicacao-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    background: var(--background-color);
+    background-image: radial-gradient(circle, var(--gray-color) 0.060rem, rgba(0, 0, 0, 0) 0.060rem);
+    background-size: 1rem 1rem;
+    overflow-y: auto;
+}
+
+.explicacao-overlay[hidden] {
+    display: none;
+}
+
+.explicacao-topo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: clamp(1rem, 3vw, 2rem) clamp(1.5rem, 4vw, 3rem) 0;
+}
+
+.explicacao-label {
+    font-family: 'Sour Gummy', cursive;
+    font-size: 1.1rem;
+    text-transform: lowercase;
+    color: var(--font-color);
+    opacity: 0.7;
+}
+
+.explicacao-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: clamp(1rem, 3vw, 2rem) clamp(1.5rem, 4vw, 3rem) clamp(2rem, 4vw, 3rem);
+}
+
+.explicacao-titulo {
+    font-family: 'Sour Gummy', cursive;
+    color: var(--white-color);
+    text-align: center;
+    text-shadow: 6px 6px 0 var(--black-color);
+    -webkit-text-stroke: clamp(2px, 0.4vw, 6px) var(--black-color);
+    paint-order: stroke fill;
+    font-size: clamp(28px, 4.5vw, 48px);
+    margin-bottom: clamp(1rem, 3vw, 2rem);
+}
+
+.explicacao-card {
+    width: 100%;
+    max-width: 800px;
+    background: var(--white-color);
+    border: 3px solid var(--black-color);
+    border-radius: clamp(16px, 2vw, 30px);
+    box-shadow: 6px 6px 2px 0 rgba(0, 0, 0, 0.50);
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.explicacao-secao-titulo {
+    font-weight: 700;
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    margin-top: 1rem;
+}
+
+.explicacao-secao-titulo:first-child {
+    margin-top: 0;
+}
+
+.explicacao-pergunta {
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+    line-height: 1.5;
+}
+
+.explicacao-opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.explicacao-opcao {
+    font-size: clamp(0.9rem, 1.8vw, 1rem);
+    padding: 0.5rem 0.8rem;
+    border-radius: 12px;
+    background: var(--gray-color);
+    border: 2px solid transparent;
+}
+
+.explicacao-opcao.opcao-correta {
+    background: var(--ligth-green2-color);
+    border-color: var(--green-color);
+    font-weight: 700;
+}
+
+.explicacao-opcao.opcao-escolhida-errada {
+    background: var(--ligth-red2-color);
+    border-color: var(--red-color);
+    font-weight: 700;
+}
+
+.explicacao-solucao {
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+    line-height: 1.5;
+}
+
+.explicacao-meta {
+    margin-top: 0.8rem;
+    font-size: 0.85rem;
+    color: var(--font-color);
+    opacity: 0.6;
+    font-style: italic;
+}

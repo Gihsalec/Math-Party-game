@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux";
+}
+
+:root {
+    --background-color: #85d4cc;
+    --gray-color: #e0e0e0;
+    --font-color: #212121;
+    --white-color: #ffffff;
+    --black-color: #000000;
+ 
+    --purple-color: #7B39C2;
+    --purple2-color: #A055E2;
+    --ligth-purple-color: #AF7FE2;
+    --ligth-purple2-color: #D0A3F7;
+ 
+    --red-color: #840707;
+    --red2-color: #A81113;
+    --ligth-red-color: #C92639;
+    --ligth-red2-color: #FF6366;
+ 
+    --blue-color: #0A5184;
+    --blue2-color: #127FBE;
+    --ligth-blue-color: #4F9BC1;
+    --ligth-blue2-color: #7BD0FF;
+ 
+    --orange-color: #CE8852;
+    --orange2-color: #EB9E55;
+    --ligth-orange-color: #FFBF83;
+    --ligth-orange2-color: #FFD1A9;
+ 
+    --green-color: #2F8F5B;
+    --green2-color: #3FAE72;
+    --ligth-green-color: #6FCB9A;
+    --ligth-green2-color: #A6E4C2;
+ 
+    --yellow-color: #C99A1F;
+    --yellow2-color: #E0B62E;
+    --ligth-yellow-color: #F0CE5E;
+    --ligth-yellow2-color: #F7E29B;
+ 
+    --tema-red-color: #B5402E;
+    --tema-red2-color: #D1543F;
+    --ligth-tema-red-color: #E48266;
+    --ligth-tema-red2-color: #F0AF9B;
+
+    --card1-bg: #FFABAB;
+    --card2-bg: #FFE2C0;
+    --card3-bg: #DAF2FF;
+    --card4-bg: #DABBFF;
+
+}
+
+body {
+    font-family: 'Afacad Flux', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: clamp(1rem, 4vw, 2rem);
+    background-color: var(--background-color);
+    background-image: radial-gradient(circle, var(--gray-color) 0.060rem, rgba(0, 0, 0, 0) 0.060rem);
+    background-size: 1rem 1rem;
+    color: var(--font-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    gap: clamp(1rem, 3vw, 1.5rem);
+}
+
+.btn-voltar {
+    position: fixed;
+    top: clamp(1rem, 2vw, 70px);
+    left: clamp(1rem, 2vw, 99px);
+    width: clamp(20px, 3vw, 40px);
+    height: auto;
+    z-index: 10;
+    filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, 0.5));
+    transition: transform 0.1s, filter 0.1s;
+}
+
+.btn-voltar:active {
+    transform: translate(5px, 5px);
+    filter: none;
+}
+
+h1 {
+    font-family: "Sour Gummy";
+    color: var(--white-color);
+    text-align: center;
+    text-shadow: 10px 10px 0 var(--black-color);
+    -webkit-text-stroke: clamp(3px, 0.6vw, 10px) var(--black-color);
+    paint-order: stroke fill;
+    font-size: clamp(36px, 6vw, 75px);
+    font-weight: 700;
+    padding-top: clamp(1rem, 4vw, 1rem);
+    padding-bottom: clamp(1rem, 3vw, 3rem);
+}
+
+.jogar{
+    width: 360px;
+    height: 90px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+    box-shadow: 5px 5px 0px rgb(0,0,0, 0.5);
+    font-size: clamp(1.1rem, 3.5vw, 4rem);
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+ 
+.jogar:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 0 rgba(0, 0, 0, 0.35);
+}
+ 
+.jogar:active:not(:disabled) {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.35);
+}
+ 
+.jogar:disabled {
+    background: var(--gray-color);
+    color: #777777;
+    border-color: #999;
+    cursor: not-allowed;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 301px;
+    height: 600px;
+    background: var(--gray-color);
+    border: 3px solid #000;
+    border-radius: clamp(12px, 2vw, 30px);
+    box-shadow: 6px 6px 2px 0 rgba(0, 0, 0, 0.50);
+}
+
+.cards .card:nth-child(1).habilitado { background: var(--card1-bg); }
+.cards .card:nth-child(2).habilitado { background: var(--card2-bg); }
+.cards .card:nth-child(3).habilitado { background: var(--card3-bg); }
+.cards .card:nth-child(4).habilitado { background: var(--card4-bg); }
+
+.card input[type="text"] {
+    width: 90%;
+    font-family: 'Sour Gummy', cursive;
+    font-weight: 700;
+    font-size: clamp(0.95rem, 2.2vw, 1.25rem);
+    text-align: center;
+    color: var(--font-color);
+    background: var(--white-color);
+    border: none;
+    border-radius: clamp(12px, 2vw, 30px);
+    padding: 0.5rem 0.6rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+ 
+.card input[type="text"]:focus {
+    border-style: solid;
+    border-color: var(--black-color);
+}
+ 
+.card input[type="text"]:disabled {
+    background: var(--gray-color);
+    border-color: #aaa;
+    color: #777;
+    cursor: not-allowed;
+}
+
+.card img {
+    width: clamp(90px, 18vw, 301px);
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25)) grayscale(1) opacity(0.65);
+    transition: filter 0.25s ease, transform 0.2s ease;
+}
+ 
+.card.habilitado img {
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25)) grayscale(0) opacity(1);
+}
+ 
+.card.habilitado:hover img {
+    transform: scale(1.05) rotate(-2deg);
+}
+
+.card button {
+    font-weight: 800;
+    font-size: clamp(0.85rem, 2.2vw, 1rem);
+    color: var(--font-color);
+    background: var(--white-color);
+    border: 2px solid var(--black-color);
+    border-radius: 999px;
+    padding: 0.5rem 1.4rem;
+    cursor: pointer;
+    box-shadow: 6px 6px 2px 0 rgba(0, 0, 0, 0.50);
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.2s ease;
+}
+ 
+.card button:hover {
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 0px 0 rgba(0, 0, 0, 0.50);
+}
+ 
+.card button:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+ 
+.cards .card:nth-child(1) button.habilitar-btn { background: var(--card1-bg); }
+.cards .card:nth-child(2) button.habilitar-btn { background: var(--card2-bg); }
+.cards .card:nth-child(3) button.habilitar-btn { background: var(--card3-bg); }
+.cards .card:nth-child(4) button.habilitar-btn { background: var(--card4-bg); }
+
+.card button.desabilitar-btn {
+    background: var(--gray-color);
+}
+ 

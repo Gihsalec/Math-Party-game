@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Party - Regras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style/regras.css">
+</head>
+
+<body>
+    <div class="div">
+    <div class="container">
+        <a href="../index.html"><img src="../images/voltar.png" alt="" class="btn-voltar"></a>
+        <h1>REGRAS</h1>
+        <div class="retangulo">
+            <img src="../images/mathpartylogo.png" alt="" class="logo">
+            <ul class="inicial">
+                <li><strong>Público-alvo:</strong> Ensino Fundamental 2 (6º ao 9º ano).</li>
+                <li><strong>Jogadores:</strong> 4 jogadores (locais).</li>
+                <li><strong>Número de rodadas:</strong> 8 rodadas.</li>
+                <li><strong>Objetivo do jogo:</strong> Acumular a maior pontuação respondendo a perguntas matemáticas de
+                    dificuldades variadas.</li>
+            </ul>
+            <h2>Como jogar?</h2>
+            <ol>
+                <li>
+                    <h3>Preparação e Lobby</h3>
+                    <ul>
+                        <li><strong>Escolha de personagem:</strong> Na tela inicial, cada jogador escolhe um dos 4
+                            personagens digitais disponíveis.</li>
+                        <li><strong>Ordem de jogada:</strong> O sistema define aleatoriamente quem começa.</li>
+                        <li><strong>Placar automático:</strong> A pontuação de todos os jogadores fica visível na tela
+                            em tempo real, começando em 0 pontos.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Fluxo da Rodada Digital</h3>
+                    <p>Na sua vez, a interface do jogo destaca a cor do seu personagem no centro do tabuleiro. O fluxo
+                        funciona assim:</p>
+
+                    <ul>
+                        <li><strong>Clique para girar:</strong> O jogador clica no botão "Girar dado".</li>
+                        <li><strong>Movimentação automática:</strong> O sistema sorteia um número (1 a 6) e o avatar do
+                            jogador avança automaticamente pelo tabuleiro virtual.</li>
+                        <li><strong>Ativação da casa:</strong> Ao parar em uma casa, a tela muda automaticamente para o
+                            modo de pergunta correspondente à cor da casa.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Dinâmica das Casas e Sistema de Respostas</h3>
+
+                    <p>Quando o avatar para em uma casa, o sistema exibe a pergunta e inicia um cronômetro de tempo
+                        regressivo.</p>
+
+                    <h4>Nível Fácil</h4>
+                    <ul>
+                        <li><strong>Cronômetro:</strong> 1 minuto e meio (90 segundos).</li>
+                        <li><strong>Acerto:</strong> O sistema soma automaticamente +10 pontos ao placar.</li>
+                        <li><strong>Erro ou tempo esgotado:</strong> O sistema subtrai -5 pontos.</li>
+                    </ul>
+
+                    <h4>Nível Intermediário</h4>
+                    <ul>
+                        <li><strong>Cronômetro:</strong> 2 minutos e meio (150 segundos).</li>
+                        <li><strong>Acerto:</strong> O sistema soma +20 pontos.</li>
+                        <li><strong>Erro ou tempo esgotado:</strong> O sistema subtrai -10 pontos.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Evento de Desafio (Casas da Bomba)</h3>
+
+                    <p>
+                        Ao cair na casa com uma bomba desenhada, a tela do jogador muda para o modo
+                        <strong>"Janela de Decisão"</strong>. O jogo exibe apenas o tema da pergunta e
+                        duas opções clicáveis:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Opção: "Aceitar Desafio"</strong>
+                            <ul>
+                                <li>O jogador responde à pergunta de nível difícil.</li>
+                                <li><strong>Cronômetro:</strong> 3 minutos e meio (210 segundos).</li>
+                                <li><strong>Acerto:</strong> Ganha +40 pontos.</li>
+                                <li><strong>Erro ou tempo esgotado:</strong> Perde -20 pontos.</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <strong>Opção: "Passar para Adversário"</strong>
+                            <ul>
+                                <li>O jogo exibe uma lista com o nome dos outros jogadores.</li>
+                                <li>O jogador que caiu na casa do desafio escolhe um dos adversários para transferir o
+                                    desafio.</li>
+                                <li><strong>Cronômetro:</strong> 3 minutos e meio (210 segundos).</li>
+                                <li><strong>Se o adversário acertar:</strong> Ele ganha +30 pontos e o jogador que
+                                    transferiu o desafio perde -15 pontos.</li>
+                                <li><strong>Se o adversário errar ou o tempo esgotar:</strong> Ele perde -15 pontos e o
+                                    jogador que transferiu o desafio ganha +30 pontos.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <h3>Casas de Evento</h3>
+
+                    <p>Conheça as consequências de cada cor ao parar em uma casa do tabuleiro:</p>
+
+                    <ul>
+                        <li><strong>🟪 Casas Roxas (Multiplicação):</strong> O jogador dobra a sua pontuação atual.</li>
+                        <li><strong>🟨 Casas Amarelas (Divisão):</strong> O jogador reduz pela metade a sua pontuação atual.</li>
+                        <li><strong>🟥 Casas Vermelhas (Bônus):</strong> O jogador ganha 10 pontos adicionais.</li>
+                        <li><strong>🟦 Casas Azuis (Penalidade):</strong> O jogador perde 10 pontos de sua pontuação.</li>
+                    </ul>
+
+                    <h4 class="titulo-evento">🏁 Casas de Iniciação</h4>
+                    <p>As casas de tom pastel (vermelho-claro, roxo-claro, amarelo-claro e azul-claro) servem apenas
+                        como ponto de partida ou transição.</p>
+
+                    <p>💡 <strong>Nota:</strong> Nenhum ponto é ganho ou perdido ao parar nas Casas de Iniciação. Elas
+                        são neutras!</p>
+                </li>
+
+                <li>
+                    <h3>Fim de Jogo e Tela de Pódio</h3>
+
+                    <p>
+                        O jogo termina quando todas as rodadas são finalizadas.
+                    </p>
+
+                    <p>
+                        Ao final, o sistema exibe a <strong>Tela de Pódio</strong>, consagrando como vencedor
+                        o jogador que obtiver a maior pontuação acumulada.
+                    </p>
+
+                    <p>
+                        Nessa tela, também é possível conferir os resultados individuais clicando no botão
+                        <strong>"Ver resultados"</strong> do respectivo jogador.
+                    </p>
+
+                    <ul>
+                        <li>São exibidas todas as perguntas que o jogador acertou e errou.</li>
+                        <li>Também é possível visualizar a resolução de cada pergunta clicando sobre ela.</li>
+                    </ul>
+
+                </li>
+            </ol>
+
+            <h2>Temas das perguntas:</h2>
+
+            <h3>Nível Fácil:</h3>
+            <ul>
+                <li>
+                    Operações básicas e desafios de lógica: charadas matemáticas simples,
+                    expressões numéricas básicas e regras de sinais.
+                </li>
+                <li>
+                    Frações e porcentagens: dividir uma pizza, calcular o desconto de uma
+                    roupa ou o juro de uma mesada e dízima periódica.
+                    (EF07MA02)(EF08MA04)(EF08MA05).
+                </li>
+                <li>
+                    Sistema de Medidas: conversão de unidades. (EF06MA24).
+                </li>
+                <li>
+                    Geometria visual: identificação de figuras geométricas, cálculo de
+                    perímetros e áreas simples. (EF05MA20).
+                </li>
+            </ul>
+
+            <h3>Nível Intermediário:</h3>
+            <ul>
+                <li>
+                    Álgebra e equações: Descobrir o valor de X (equações de 1º e 2º grau).
+                    (EF08MA08)(EF08MA09).
+                </li>
+                <li>
+                    Regra de três: Problemas de grandezas direta ou inversamente
+                    proporcionais. (EF09MA06)(EF09MA07).
+                </li>
+                <li>
+                    Teorema de Pitágoras e trigonometria básica: Calcular a hipotenusa de um
+                    triângulo ou usar seno, cosseno e tangente. (EF09MA13).
+                </li>
+                <li>
+                    Estatística e probabilidade simples: Calcular a média de notas, ou a
+                    chance de tirar uma carta específica ou um número específico no dado do
+                    próprio jogo. (EF06MA30).
+                </li>
+            </ul>
+
+            <h3>Desafio:</h3>
+            <ul>
+                <li>
+                    Mesmos assuntos abordados nos níveis anteriores, porém são questões mais
+                    complexas.
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <img src="../images/mathpartylogo.png" alt="logo-mathparty">
+        <div>
+            <p>
+                <strong>Equipe:</strong><br>
+                Bárbara Teixeira <br>
+                Cybele Chaves<br>
+                Giovanna Sales<br>
+                Iasmin Oliveira<br>
+                Julia Flor
+            </p>
+        </div>
+        <div>
+            <p>
+                <strong>Disciplina:</strong><br>
+                Matemática Aplicada a Multimídia I<br>
+                <strong>Curso:</strong><br>
+                Sistemas e Mídias Digiais <br>
+                UFC - Universidade Federal do Ceará
+            </p>
+        </div>
+        <div>
+            <p>
+                <strong>Contato</strong><br>
+                <p>contato.mathparty@gmail.com</p>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
