@@ -2,7 +2,6 @@ export function criarModalResultado(elements) {
     const {
         resultadoOverlay,
         resultadoCardEl,
-        resultadoHeaderEl,
         resultadoLinhasEl,
         btnAvancar,
         btnExplicacao,
