@@ -649,7 +649,7 @@
       "tema": "Lógica",
       "nivel": "fácil",
       "pergunta": "Os 100 funcionários de uma empresa estão distribuídos em dois setores: Produção e Administração. Os funcionários de um mesmo setor recebem salários com valores iguais. O quadro apresenta a quantidade de funcionários por setor e seus respectivos salários. A média dos salários dos 100 funcionários dessa empresa, em real, é",
-      "imagem": "imagens/q029.png",
+      "imagem": "images/q029.png",
       "opcoes": [
         {
           "texto": "2000,00",
@@ -787,7 +787,7 @@
       "tema": "Fração",
       "nivel": "fácil",
       "pergunta": "Um jogo pedagógico é formado por cartas nas quais está impressa uma fração em uma de suas faces. Cada jogador recebe quatro cartas e vence aquele que primeiro consegue ordenar crescentemente suas cartas pelas respectivas frações impressas. O vencedor foi o aluno que recebeu as cartas com as frações:",
-      "imagem": "imagens/q035.png",
+      "imagem": "images/q035.png",
       "opcoes": [
         {
           "texto": "1/4, 5/9, 3/5, 2/3",
@@ -1293,7 +1293,7 @@
       "tema": "Dízima Periódica",
       "nivel": "fácil",
       "pergunta": "Em um certo teatro, as poltronas são divididas em setores. A figura apresenta a vista do setor 3 desse teatro, no qual as cadeiras escuras estão reservadas e as claras não foram vendidas. A razão que representa a quantidade de cadeiras reservadas do setor 3 em relação ao total de cadeiras desse mesmo setor é",
-      "imagem": "imagens/q057.png",
+      "imagem": "images/q057.png",
       "opcoes": [
         {
           "texto": "17/70",
@@ -1776,7 +1776,7 @@
       "tema": "Conversão de unidades",
       "nivel": "fácil",
       "pergunta": "Um mecânico de uma equipe de corrida necessita que as seguintes medidas realizadas em um carro sejam obtidas em metros: - distância entre os eixos dianteiro e traseiro; - altura b entre o solo e o encosto do piloto. Ao optar pelas medidas a e b em metros, obtêm-se, respectivamente:",
-      "imagem": "imagens/q078.png",
+      "imagem": "images/q078.png",
       "opcoes": [
         {
           "texto": "0,23 e 0,16",
@@ -2075,7 +2075,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "Observando a figura, se você pegar este trapézio retângulo e girá-lo 360 graus em torno do lado PS (que está colado na vareta), qual sólido geométrico será formado?:",
-      "imagem": "imagens/q091.png",
+      "imagem": "images/q091.png",
       "opcoes": [
         {
           "texto": "cilindro",
@@ -2121,7 +2121,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "Nesse quadro, a parte da lua escondida atrás da torre mais alta do castelo pode ser representada por um:",
-      "imagem": "imagens/q093.png",
+      "imagem": "images/q093.png",
       "opcoes": [
         {
           "texto": "cone",
@@ -2190,7 +2190,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "Calcule a área da região colorida na figura:",
-      "imagem": "imagens/q096.png",
+      "imagem": "images/q096.png",
       "opcoes": [
         {
           "texto": "1.875",
@@ -2213,7 +2213,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "Calcule a área do terreno cuja planta é a da seguinte figura:",
-      "imagem": "imagens/q097.png",
+      "imagem": "images/q097.png",
       "opcoes": [
         {
           "texto": "900m²",
@@ -2236,7 +2236,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "Abaixo temos a imagem da bandeira do Brasil. Quais são as figuras planas que encontramos nesta bandeira?",
-      "imagem": "imagens/q098.png",
+      "imagem": "images/q098.png",
       "opcoes": [
         {
           "texto": "Retângulo, losango e círculo",
@@ -2305,7 +2305,7 @@
       "tema": "Geometria Plana",
       "nivel": "fácil",
       "pergunta": "Uma pessoa possui um terreno em forma de um pentágono, como ilustrado na figura. Sabe-se que a diagonal AD mede 50 m e é paralela ao lado BC, que mede 29 m. A distância do ponto B a AD é de 8 m e a distância do ponto E a AD é de 20 m. A área, em metro quadrado, deste terreno é igual a",
-      "imagem": "imagens/q101.png",
+      "imagem": "images/q101.png",
       "opcoes": [
         {
           "texto": "658",
@@ -2420,7 +2420,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "A imagem abaixo representa o projeto de uma casa de área A, que terá seu entorno gramado. Sendo a parte sombreada da imagem a área coberta com grama, qual será a quantidade de grama usada?",
-      "imagem": "imagens/q106.png",
+      "imagem": "images/q106.png",
       "opcoes": [
         {
           "texto": "60 m² de grama",
@@ -2466,7 +2466,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "A imagem abaixo representa um dos retalhos que serão usados para fazer uma colcha. Se a colcha tiver 64 retalhos iguais, qual será a sua área (A) de cobertura?",
-      "imagem": "imagens/q108.png",
+      "imagem": "images/q108.png",
       "opcoes": [
         {
           "texto": "A = 7,68 m²",
@@ -2512,7 +2512,7 @@
       "tema": "Geometria Plana",
       "nivel": "fácil",
       "pergunta": "O atletismo é um dos esportes que mais se identificam com o espírito olímpico. A figura ilustra uma pista de atletismo. A pista é composta por oito raias e tem largura de 9,76 m. As raias são numeradas do centro da pista para as extremidades e são construídas de segmentos de retas paralelas e arcos de circunferência. Os dois semicírculos da pista são iguais. Se os atletas partissem do mesmo ponto, dando uma volta completa, em qual das raias o corredor estaria sendo beneficiado?",
-      "imagem": "imagens/q110.png",
+      "imagem": "images/q110.png",
       "opcoes": [
         {
           "texto": "1",
@@ -2604,7 +2604,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "Determine o ângulo x e y da figura abaixo:",
-      "imagem": "imagens/q114.png",
+      "imagem": "images/q114.png",
       "opcoes": [
         {
           "texto": "X:80 e Y:120",
@@ -2627,7 +2627,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "Qual é o valor de X?",
-      "imagem": "imagens/q115.png",
+      "imagem": "images/q115.png",
       "opcoes": [
         {
           "texto": "X:40",
@@ -2650,7 +2650,7 @@
       "tema": "Geometria Visual",
       "nivel": "fácil",
       "pergunta": "Calcule os valores das letras indicadas nas figuras:",
-      "imagem": "imagens/q116.png",
+      "imagem": "images/q116.png",
       "opcoes": [
         {
           "texto": "X=20, Y=100, Z=110",
@@ -2673,7 +2673,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "Qual a área do terreno verde?",
-      "imagem": "imagens/q117.png",
+      "imagem": "images/q117.png",
       "opcoes": [
         {
           "texto": "200 m²",
@@ -2742,7 +2742,7 @@
       "tema": "Geometria visual",
       "nivel": "fácil",
       "pergunta": "Uma criança deseja criar triângulos utilizando palitos de fósforo de mesmo comprimento. Cada triângulo será construído com exatamente 17 palitos e pelo menos um dos lados do triângulo deve ter o comprimento de exatamente 6 palitos. A figura ilustra um triângulo construído com essas características. A quantidade máxima de triângulos não congruentes dois a dois que podem ser construídos é",
-      "imagem": "imagens/q120.png",
+      "imagem": "images/q120.png",
       "opcoes": [
         {
           "texto": "3",
@@ -2765,7 +2765,7 @@
       "tema": "Sistema de Equações",
       "nivel": "intermediário",
       "pergunta": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos. Qual o preço, em real, de uma cartela de tíquetes vermelhos?",
-      "imagem": "imagens/q121.png",
+      "imagem": "images/q121.png",
       "opcoes": [
         {
           "texto": "4,68",
@@ -2834,7 +2834,7 @@
       "tema": "Álgebra e equações",
       "nivel": "intermediário",
       "pergunta": "Qual o valor da expressão algébrica para a = 2, b = - 5 e c = 2?",
-      "imagem": "imagens/q124.png",
+      "imagem": "images/q124.png",
       "opcoes": [
         {
           "texto": "1",
@@ -2850,7 +2850,7 @@
         }
       ],
       "solucao": "Sendo a = 2, b = - 5 e c = 2, temos: Portanto, quando a = 2, b = - 5 e c = 2, o valor numérico da expressão é 3",
-      "imagemSolucao":"imagens/q124S.png",
+      "imagemSolucao":"images/q124S.png",
       "referencia": "Toda Matéria"
     },
     {
@@ -3157,7 +3157,7 @@
       "tema": "Sistema de Equações",
       "nivel": "intermediário",
       "pergunta": "O metro de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos. Qual o preço, em real, de uma cartela de tíquetes vermelhos?",
-      "imagem": "imagens/q138.png",
+      "imagem": "images/q138.png",
       "opcoes": [
         {
           "texto": "4,68",
@@ -3205,7 +3205,7 @@
       "tema": "Sistema de Equações",
       "nivel": "intermediário",
       "pergunta": "A concentração de álcool no sangue pode ser entendida como a razão entre a quantidade q de álcool ingerido, medida em grama, e o volume de sangue, em litro, presente no organismo do indivíduo. Em geral, considera-se que esse volume corresponda ao valor numérico dado por 8% da massa corporal m desse indivíduo, medida em quilograma. De acordo com a Associação Médica Americana, uma concentração alcoólica superior a 0,4 grama por litro de sangue é capaz de trazer prejuízos à saúde do indivíduo. A expressão relacionando q e m que representa a concentração alcoólica prejudicial à saúde do indivíduo, de acordo com a Associação Médica Americana, é",
-      "imagem": "imagens/q140.png",
+      "imagem": "images/q140.png",
       "opcoes": [
         {
           "texto": "0,4m/q>0,8",
@@ -3413,7 +3413,7 @@
       "tema": "Expressão algébrica",
       "nivel": "intermediário",
       "pergunta": "As curvas de oferta e de demanda de um produto representam, respectivamente, as quantidades que vendedores e consumidores estão dispostos a comercializar em função do preço do produto. Em alguns casos, essas curvas podem ser representadas por retas. Suponha que as quantidades de oferta e de demanda de um produto sejam, respectivamente, representadas pelas equações: em que QO é quantidade de oferta, QD é a quantidade de demanda e P é o preço do produto. A partir dessas equações, de oferta e de demanda, os economistas encontram o preço de equilíbrio de mercado, ou seja, quando QO e QD se igualam. Para a situação descrita, qual o valor do preço de equilíbrio?",
-      "imagem": "imagens/q149.png",
+      "imagem": "images/q149.png",
       "opcoes": [
         {
           "texto": "5",
@@ -3478,7 +3478,7 @@
       "tema": "Regra de três",
       "nivel": "intermediário",
       "pergunta": "Duas empreiteiras farão conjuntamente a pavimentação de uma estrada, cada uma trabalhando a partir de uma das extremidades. Se uma delas pavimentar 2/5 da estrada e a outra os 81 km restantes, a extensão dessa estrada é de:",
-      "imagem": "imagens/q152.png",
+      "imagem": "images/q152.png",
       "opcoes": [
         {
           "texto": "125 km",
@@ -3501,7 +3501,7 @@
       "tema": "Regra de três",
       "nivel": "intermediário",
       "pergunta": "Uma peça de tecido, após a lavagem, perdeu 1/10 de seu comprimento e ficou medindo 36 metros. Nessas condições, o comprimento, em metros, da peça antes da lavagem era igual a:",
-      "imagem": "imagens/q153.png",
+      "imagem": "images/q153.png",
       "opcoes": [
         {
           "texto": "39,6 metros",
@@ -3570,7 +3570,7 @@
       "tema": "Regra de três",
       "nivel": "intermediário",
       "pergunta": "Em uma empresa, 10 funcionários produzem 150 peças em 30 dias úteis. O número de funcionários que a empresa vai precisar para produzir 200 peças, em 20 dias úteis, é igual a",
-      "imagem": "imagens/q156.png",
+      "imagem": "images/q156.png",
       "opcoes": [
         {
           "texto": "20",
@@ -3593,7 +3593,7 @@
       "tema": "Regra de três",
       "nivel": "intermediário",
       "pergunta": "Quinze operários, trabalhando 8 horas por dia, demoram 16 dias para fazer um muro de 80 metros de comprimento. Se a quantidade de operários fosse reduzida para 10, a quantidade de horas, por dia, que precisariam trabalhar para, em 24 dias, fazerem um muro de 90 metros de comprimento, com a mesma espessura e altura que o anterior, é de:",
-      "imagem": "imagens/q157.png",
+      "imagem": "images/q157.png",
       "opcoes": [
         {
           "texto": "7",
@@ -3616,7 +3616,7 @@
       "tema": "Regra de três",
       "nivel": "intermediário",
       "pergunta": "Em uma agência bancária, dois caixas atendem em média seis clientes em 10 minutos. Considere que, nessa agência, todos os caixas trabalham com a mesma eficiência e que a média citada sempre é mantida. Assim, o tempo médio necessário para que cinco caixas atendam 45 clientes é de:",
-      "imagem": "imagens/q158.png",
+      "imagem": "images/q158.png",
       "opcoes": [
         {
           "texto": "45 minutos",
@@ -3777,7 +3777,7 @@
       "tema": "Regra de três",
       "nivel": "intermediário",
       "pergunta": "Uma torneira enche um tanque em 6 h. Quanto tempo o mesmo tanque levará para encher, se forem utilizadas 4 torneiras com a mesma vazão da torneira anterior?",
-      "imagem": "imagens/q165.png",
+      "imagem": "images/q165.png",
       "opcoes": [
         {
           "texto": "1,5h",
@@ -3800,7 +3800,7 @@
       "tema": "Regra de três",
       "nivel": "intermediário",
       "pergunta": "Em uma empresa, 10 funcionários produzem 150 peças em 30 dias úteis. O número de funcionários que a empresa vai precisar para produzir 200 peças, em 20 dias úteis, é igual a",
-      "imagem": "imagens/q166.png",
+      "imagem": "images/q166.png",
       "opcoes": [
         {
           "texto": "18",
@@ -3816,7 +3816,7 @@
         }
       ],
       "solucao": "Esse problema envolve regra de três composta, pois temos três grandezas: número de funcionários, número de peças e número de dias. Observando as setas, identificamos que o número de peças e o número de funcionários são grandezas diretamente proporcionais. Já dias e número de funcionários são inversamente proporcionais. Assim, para resolver a regra de três, temos que inverter o número de dias. Logo, serão necessários 20 funcionários.",
-      "imagemSolucao":"imagens/q166.2.png",
+      "imagemSolucao":"images/q166.2.png",
       "referencia": "Cefet - MG - 2015"
     },
     {
@@ -3824,7 +3824,7 @@
       "tema": "Regra de três",
       "nivel": "intermediário",
       "pergunta": "Em uma empresa, 50 funcionários, produzem 200 peças, trabalhando 5 horas por dia. Se o número de funcionários cair pela metade e o número de horas de trabalho por dia passar para 8 horas, quantas peças serão produzidas?",
-      "imagem": "imagens/q167.png",
+      "imagem": "images/q167.png",
       "opcoes": [
         {
           "texto": "200",
@@ -3870,7 +3870,7 @@
       "tema": "Regra de três",
       "nivel": "intermediário",
       "pergunta": "Das situações abaixo, marque aquela que descreve duas grandezas inversamente proporcionais:",
-      "imagem": "imagens/q169.png",
+      "imagem": "images/q169.png",
       "opcoes": [
         {
           "texto": "Vazão de um ralo e o tempo necessário para esvaziar um reservatório",
@@ -4046,7 +4046,7 @@
           "correta": false
         }
       ],
-      "solucao": "imagens/q176.png",
+      "solucao": "images/q176.png",
       "referencia": "Descomplica"
     },
     {
@@ -4307,7 +4307,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Um carro se desloca por uma rampa inclinada. Essa rampa possui 60 metros de comprimento e altura máxima de 10 metros, conforme a imagem: A distância x entre o ponto A e B é de aproximadamente:",
-      "imagem": "imagens/q188.png",
+      "imagem": "images/q188.png",
       "opcoes": [
         {
           "texto": "45 metros",
@@ -4330,7 +4330,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Em seu quintal, Sara decidiu criar um jardim no formato de um triângulo retângulo. Para isso é importante que ela saiba as dimensões dos lados desse triângulo. Analisando a imagem, podemos afirmar que o valor da hipotenusa é: (Use √13 = 3,6)",
-      "imagem": "imagens/q189.png",
+      "imagem": "images/q189.png",
       "opcoes": [
         {
           "texto": "10 cm",
@@ -4345,7 +4345,7 @@
           "correta": true
         }
       ],
-      "solucao": "imagens/q189S.png",
+      "solucao": "images/q189S.png",
       "referencia": "Brasil Escola"
     },
     {
@@ -4399,7 +4399,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Deseja-se subir em um muro com 32 metros de altura. Para isso, apoia-se uma escada a 24 metros de distância desse muro, como pode ser observado na figura abaixo Desse modo, a altura dessa escada, em metros, é de:",
-      "imagem": "imagens/q192.png",
+      "imagem": "images/q192.png",
       "opcoes": [
        
         {
@@ -4488,7 +4488,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Considere que o tamanho de uma televisão, dado em polegadas, corresponde ao comprimento da sua diagonal e que, no caso de televisores de tamanho normal, a largura e a altura seguem, ordenadamente, a relação 4:3. Observe a figura abaixo e considere 1 polegada = 2,5 cm. Com relação a uma televisão plana de 40 polegadas, é correto afirmar que sua largura e sua altura são, respectivamente:",
-      "imagem": "imagens/q196.png",
+      "imagem": "images/q196.png",
       "opcoes": [
         {
           "texto": "60 cm e 45 cm",
@@ -4534,7 +4534,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Duas estacas de madeira, perpendiculares ao solo e de alturas diferentes, estão distantes uma da outra 1,5 m. Será colocada entre elas uma outra estaca de 1,7 m de comprimento que ficará apoiada nos pontos A e B, conforme mostra a figura. A diferença entre a altura da maior estaca e a altura da menor estaca, nessa ordem, em cm, é:",
-      "imagem": "imagens/q198.png",
+      "imagem": "images/q198.png",
       "opcoes": [
         {
           "texto": "95",
@@ -4557,7 +4557,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Um terreno tem formato retangular, de modo que um de seus lados mede 30 metros e o outro mede 40 metros. Será preciso construir uma cerca que passe pela diagonal desse terreno. Assim, considerando-se que cada metro de cerca custará R$ 12,00, quanto será gasto, em reais, para sua construção?",
-      "imagem": "imagens/q199.png",
+      "imagem": "images/q199.png",
       "opcoes": [
         {
           "texto": "600,00",
@@ -4580,7 +4580,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Carla ao procurar seu gatinho o avistou em cima de uma árvore. Ela então pediu ajuda a sua mãe e colocaram uma escada junto à árvore para ajudar o gato a descer. Sabendo que o gato estava a 8 metros do chão e a base da escada estava posicionada a 6 metros da árvore, qual o comprimento da escada utilizada para salvar o gatinho?",
-      "imagem": "imagens/q200.png",
+      "imagem": "images/q200.png",
       "opcoes": [
         {
           "texto": "8 metros",
@@ -4603,7 +4603,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Uma casa de dois pavimentos está sendo construída, sendo necessária uma escada que ligue os dois andares. A fim de projetar corretamente a escada, é preciso conhecer seu comprimento. Os únicos dados disponíveis são a altura, de três metros, e o comprimento horizontal, do primeiro ao último degrau. Determine o comprimento da escada.",
-      "imagem": "imagens/q201.png",
+      "imagem": "images/q201.png",
       "opcoes": [
         {
           "texto": "√ 34",
@@ -4626,7 +4626,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Na figura abaixo, o valor de x e y, respectivamente, é",
-      "imagem": "imagens/q202.png",
+      "imagem": "images/q202.png",
       "opcoes": [
         {
           "texto": "4√2 e √97",
@@ -4649,7 +4649,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Uma represa no formato retangular possui dimensões de 30 metros por 40 metros. Qual será a distância percorrida por uma pessoa que atravessa essa represa pela sua diagonal?",
-      "imagem": "q203.png",
+      "imagem": "images/q203.png",
       "opcoes": [
         {
           "texto": "45",
@@ -4695,7 +4695,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Analisando o triângulo a seguir, podemos afirmar que y é igual a:",
-      "imagem": "imagens/q205.png",
+      "imagem": "images/q205.png",
       "opcoes": [
         {
           "texto": "29",
@@ -4718,7 +4718,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Encontre a diagonal do retângulo abaixo.",
-      "imagem": "imagens/q206.png",
+      "imagem": "images/q206.png",
       "opcoes": [
         {
           "texto": "5",
@@ -4733,7 +4733,7 @@
           "correta": true
         }
       ],
-      "solucao": "imagens/q206S.png",
+      "solucao": "images/q206S.png",
       "referencia": "Brasil Escola"
     },
     {
@@ -4764,7 +4764,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "Para realizar a construção de uma praça, a prefeitura traçou as medidas de dois lados da região, que possui formato de triângulo retângulo: A medida do lado FG, indicada por x, é igual a:",
-      "imagem": "imagens/q208.png",
+      "imagem": "images/q208.png",
       "opcoes": [
         {
           "texto": "20",
@@ -4810,7 +4810,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "intermediário",
       "pergunta": "O perímetro do triângulo retângulo a seguir, com a medida dos seus lados dada em centímetros, é de:",
-      "imagem": "imagens/q210.png",
+      "imagem": "images/q210.png",
       "opcoes": [
         {
           "texto": "24 cm",
@@ -4994,7 +4994,7 @@
       "tema": "Estatística",
       "nivel": "intermediário",
       "pergunta": "Uma pessoa, ao fazer uma pesquisa com alguns alunos de um curso, coletou as idades dos entrevistados e organizou esses dados em um gráfico.",
-      "imagem": "imagens/q218.png",
+      "imagem": "images/q218.png",
       "opcoes": [
         {
           "texto": "9",
@@ -5293,7 +5293,7 @@
       "tema": "Estatística",
       "nivel": "intermediário",
       "pergunta": "Analise o quadro a seguir: Qual alternativa contém apresenta a moda dos dados do quadrado acima:",
-      "imagem": "imagens/q231.png",
+      "imagem": "images/q231.png",
       "opcoes": [
         {
           "texto": "31",
@@ -5523,7 +5523,7 @@
       "tema": "Probabilidade",
       "nivel": "intermediário",
       "pergunta": "Uma empresa sorteia prêmios entre os funcionários como reconhecimento pelo tempo trabalhado. A tabela mostra a distribuição de frequência de 20 empregados dessa empresa que têm de 25 a 35 anos trabalhados. A empresa sorteou, entre esses empregados, uma viagem de uma semana, sendo dois deles escolhidos aleatoriamente Qual a probabilidade de que ambos os sorteados tenham 34 anos de trabalho?",
-      "imagem": "imagens/q241.png",
+      "imagem": "images/q241.png",
       "opcoes": [
         {
           "texto": "1/20",
@@ -5546,7 +5546,7 @@
       "tema": "Porcentagem",
       "nivel": "difícil",
       "pergunta": "O gráfico ao lado representa a distribuição dos salários pela quantidade de funcionários de certa empresa. De acordo com o gráfico, verifica-se que a quantidade de pessoas que recebem mais que R$ 5.000,00 é",
-      "imagem": "imagens/q242.png",
+      "imagem": "images/q242.png",
       "opcoes": [
         {
           "texto": "menor que 35% e maior que 25%",
@@ -5661,7 +5661,7 @@
       "tema": "Geometria visual",
       "nivel": "difícil",
       "pergunta": "Um brinquedo chamado pula-pula, quando visto de cima, consiste de uma cama elástica com contorno em formato de um hexágono regular. Se a área do círculo inscrito no hexágono é 3π metros quadrados, então a área do hexágono, em metro quadrado, é:",
-      "imagem": "imagens/q247.png",
+      "imagem": "images/q247.png",
       "opcoes": [
         {
           "texto": "9",
@@ -5677,8 +5677,8 @@
         }
       ],
       "solucao": "Primeiro encontraremos o raio da circunferência que coincide com a altura do triângulo mostrado na imagem. A = πr² Sabemos que a área é igual a 3π: 3π = πr² 3 = r² r = √3 Sabendo o valor do raio, se traçarmos o triângulo AOB, o raio será a sua altura. No hexágono, esse triângulo é sempre equilátero, então, utilizando a fórmula altura de um triângulo equilátero, temos que: Agora que conhecemos o comprimento do lado do hexágono, basta utilizar a fórmula da área do hexágono.",
-      "imagemSolucao":"imagens/q247S.png",
-      "imagemSolucao2": "imagens/q247S2.png",
+      "imagemSolucao":"images/q247S.png",
+      "imagemSolucao2": "images/q247S2.png",
       "referencia": "ENEM 2018"
     },
     {
@@ -5782,7 +5782,7 @@
       "tema": "Regra de três composta",
       "nivel": "difícil",
       "pergunta": "Uma confecção possuía 36 funcionários, alcançando uma produtividade de 5400 camisetas por dia, com uma jornada de trabalho diária dos funcionários de 6 horas. Entretanto, com o lançamento da nova coleção e de uma nova campanha de marketing, o número de encomendas cresceu de forma acentuada, aumentando a demanda diária para 21.600 camisetas. Buscando atender essa nova demanda, a empresa aumentou o quadro de funcionários para 96. Ainda assim, a carga horária de trabalho necessita ser ajustada. Qual deve ser a nova jornada de trabalho diária dos funcionários para que a empresa consiga atender a demanda?",
-      "imagem": "imagens/q252.png",
+      "imagem": "images/q252.png",
       "opcoes": [
         
         {
@@ -5799,7 +5799,7 @@
         }
       ],
       "solucao": "Primeiro vamos identificar as grandezas, que são: quantidade de funcionários, quantidade de camisetas, e horas trabalhadas. Como nós queremos calcular as horas trabalhadas, vamos comparar essa grandeza com as demais. Se o tempo de trabalho for maior, a quantidade de funcionários necessários será menor. (Inversamente proporcional) Se o tempo de trabalho for maior, a quantidade de camisetas produzidas será maior. (Diretamente proporcional) Podemos montar a tabela que descreve a situação: Agora, montando a equação escrevendo o inverso da fração de funcionários, temos que:",
-      "imagemSolucao":"imagens/q252S.png",
+      "imagemSolucao":"images/q252S.png",
       "referencia": "ENEM 2015"
     },
     {
@@ -5807,7 +5807,7 @@
       "tema": "Teorema de Pitágoras",
       "nivel": "difícil",
       "pergunta": "Na figura abaixo, ABCD é um retângulo de lados BC = 4 e CD = 6. Se P e Q são pontos médios de BC e CD respectivamente, então o valor da tangente de α é igual a:",
-      "imagem": "imagens/q253.png",
+      "imagem": "images/q253.png",
       "opcoes": [
         {
           "texto": "13/7",
@@ -5845,8 +5845,8 @@
           "correta": true
         }
       ],
-      "solucao": "imagens/q254.png",
-      "referencia": ""
+      "solucao": "images/q254.png",
+      "referencia": "TodaMatéria"
     },
     {
       "id": 255,
@@ -5876,7 +5876,7 @@
       "tema": "Estatística",
       "nivel": "difícil",
       "pergunta": "O gráfico apresenta a taxa de desemprego (em %) para o período de março de 2008 a abril de 2009, obtida com base nos dados observados nas regiões metropolitanas de Recife, Salvador, Belo Horizonte, Rio de Janeiro, São Paulo e Porto Alegre. A mediana dessa taxa de desemprego, no período de março de 2008 a abril de 2009, foi de",
-      "imagem": "imagens/q256.png",
+      "imagem": "images/q256.png",
       "opcoes": [
         {
           "texto": "8,1%",
@@ -5899,7 +5899,7 @@
       "tema": "Estatística",
       "nivel": "difícil",
       "pergunta": "Silvia joga futebol profissionalmente desde 2016, e o gráfico a seguir mostra a quantidade de gols que ela fez em cada ano. Ela já decidiu que sua temporada de 2024 será a última e quer que a média de gols de toda a sua carreira seja a mesma média de gols que fez nos anos de 2016, 2017 e 2018. Quantos gols ela precisará fazer em 2024 para alcançar esse objetivo?",
-      "imagem": "imagens/q257.png",
+      "imagem": "images/q257.png",
       "opcoes": [
         {
           "texto": "37 gols",
