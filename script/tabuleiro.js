@@ -156,7 +156,6 @@ const perguntaModal = criarModalPergunta({
 const resultadoModal = criarModalResultado({
     resultadoOverlay: document.getElementById('resultadoOverlay'),
     resultadoCardEl: document.querySelector('#resultadoOverlay .resultado-card'),
-    resultadoHeaderEl: document.getElementById('resultadoHeader'),
     resultadoLinhasEl: document.getElementById('resultadoLinhas'),
     btnAvancar: document.getElementById('btnAvancar'),
     btnExplicacao: document.getElementById('btnExplicacao'),
