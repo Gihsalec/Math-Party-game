@@ -74,12 +74,6 @@ export function criarModalResultado(elements) {
     function mostrarResultado({ tema, linhas, questao, aoAvancar, jogadorId }) {
         resultadoOverlay.classList.remove('tema-normal', 'tema-desafio');
         resultadoOverlay.classList.add(tema === 'desafio' ? 'tema-desafio' : 'tema-normal');
-        resultadoHeaderEl.textContent = tema === 'desafio'
-            ? 'Resultado da pergunta - desafio'
-            : 'Resultado da pergunta';
-
-        // Card do resultado acompanha a cor do jogador da vez (mesma cor do
-        // card central onde o dado é rolado), em vez de uma cor fixa por tema.
         if (resultadoCardEl) {
             resultadoCardEl.style.background = jogadorId && corDoJogador ? corDoJogador(jogadorId) : '';
         }
