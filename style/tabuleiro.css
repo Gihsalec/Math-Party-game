@@ -542,7 +542,6 @@ body {
     box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.25);
 }
 
-/* ---- Feedback de acerto/erro exibido dentro do popup ---- */
 .pergunta-resultado {
     min-height: 1.5rem;
     text-align: center;
@@ -558,7 +557,6 @@ body {
     color: var(--red2-color);
 }
 
-/* ---- Janela de Decisão (casa-bomba) e Janela de Transferência ---- */
 .decisao-overlay {
     position: fixed;
     inset: 0;
@@ -660,7 +658,6 @@ body {
     border-color: var(--blue-color);
 }
 
-/* ---- Lista de jogadores para transferir o desafio ---- */
 .transfer-lista {
     display: flex;
     gap: 1.25rem;
@@ -715,7 +712,6 @@ body {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
 }
 
-/* ---- Tela de Resultado (pop-up igual ao das perguntas, com fundo escurecido) ---- */
 .resultado-overlay {
     position: fixed;
     inset: 0;
@@ -846,7 +842,8 @@ body {
     border: 2px solid #1c1c1c;
     font-weight: 700;
     font-size: 0.95rem;
-    white-space: nowrap;
+    white-space: normal; 
+    word-break: break-word;
 }
 
 .resultado-opcao.correta {
